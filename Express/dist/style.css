@@ -1,0 +1,52 @@
+.container {
+  width: 1000px;
+  margin: 0 auto; }
+
+.btnAdd {
+  width: 95px;
+  height: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4c4c4c;
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all .3s; }
+  .btnAdd:hover {
+    background-color: #636363; }
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.card {
+  width: 300px;
+  min-height: 500px;
+  border: 2px solid #4c4c4c;
+  border-radius: 15px;
+  padding: 10px;
+  position: relative; }
+  .card__title {
+    font-size: 25px;
+    color: #4c4c4c;
+    text-align: center;
+    font-weight: 900; }
+  .card__line {
+    width: 100%;
+    height: 2px;
+    background-color: #4c4c4c; }
+  .card__descr {
+    font-size: 14px;
+    color: #4c4c4c; }
+  .card__date {
+    position: absolute;
+    right: 25px;
+    bottom: 0; }
+
+
+/*# sourceMappingURL=style.css.map*/

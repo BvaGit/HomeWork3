@@ -1,0 +1,14 @@
+.addTimer{
+    display: flex;
+    align-items: center;
+
+    &__input{
+        padding: 15px;
+        width: 200px;
+        border: 1px solid rgb(182, 208, 255);
+        &:focus{
+            outline: none;
+            box-shadow: 0 0 15px rgb(182, 208, 255);
+        }
+    }
+}
