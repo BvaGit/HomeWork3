@@ -1,6 +1,6 @@
 node_modules/
 
-Converter/
+Converter/node_modules/
 
 Express/node_modules/
 Express/dist/
